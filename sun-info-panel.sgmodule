@@ -1,0 +1,11 @@
+#!name=节假日信息
+#!desc=显示节假日的信息
+#!category=深巷有喵的模块
+# 更新日期：2024.09.09
+# 版本：3.3
+
+[Panel]
+Sub_info = script-name=Sub_info,update-interval={{{UPDATE-INTERVAL}}}
+
+[Script]
+Sub_info = type=generic,script-path=https://raw.githubusercontent.com/BrianLi-9527/surge-js/refs/heads/main/sub_info_panel.js,timeout=10,argument="url={{{URL}}}&expire={{{EXPIRE}}}&title={{{TITLE}}}&icon={{{ICON}}}&color={{{COLOR}}}"
