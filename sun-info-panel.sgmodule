@@ -1,7 +1,7 @@
 #!name=JustMySocks信息
 #!desc=JustMySocks用量监控
 #!category=brian
-#!arguments=URL:https%3A%2F%2Fjustmysocks6.net%2Fmembers%2Fgetbwcounter.php,EXPIRE:new Date().toLocaleDateString(),TITLE:JustMySocks,ICON:bonjour,COLOR:#007aff,UPDATE-INTERVAL:-1
+#!arguments=URL:https%3A%2F%2Fjustmysocks6.net%2Fmembers%2Fgetbwcounter.php,EXPIRE:2026-03-27,TITLE:JustMySocks,ICON:bonjour,COLOR:#007aff,UPDATE-INTERVAL:-1
 
 [Script]
 # Panel
