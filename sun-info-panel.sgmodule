@@ -1,8 +1,6 @@
 #!name=JustMySocks信息
 #!desc=JustMySocks用量监控
 #!category=brian
-# 更新日期：2026.03.27
-# 版本：1.0
 #!arguments=URL:https%3A%2F%2Fjustmysocks6.net%2Fmembers%2Fgetbwcounter.php,EXPIRE:new Date().toLocaleDateString(),TITLE:JustMySocks,ICON:bonjour,COLOR:#007aff,UPDATE-INTERVAL:-1
 
 [Script]
