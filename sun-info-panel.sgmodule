@@ -5,6 +5,9 @@
 # 版本：1.0
 
 [Script]
+# Request
+订阅节点信息 = type=http-request,pattern=^https?:\/\/justmysocks6\.net,script-path=https://raw.githubusercontent.com/BrianLi-9527/surge-js/refs/heads/main/sub_info_panel.js,timeout=120
+
 # Event
 订阅节点信息监控 = type=event,event-name=network-changed,timeout=120,script-path=https://raw.githubusercontent.com/BrianLi-9527/surge-js/refs/heads/main/sub_info_panel.js,argument="url={{{URL}}}&expire={{{EXPIRE}}}&title={{{TITLE}}}&icon={{{ICON}}}&color={{{COLOR}}}"
 
